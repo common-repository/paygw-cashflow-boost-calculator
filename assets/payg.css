@@ -1,0 +1,113 @@
+div.payg-form-container.aligncenter{
+	text-align: center;
+}
+
+#frmpayg {
+	font-size: 20px;
+}
+
+
+#frmpayg label {
+	display: inline-block;
+}
+
+#frmpayg input[type="text"]{
+	max-width: 215px;
+    /*text-align: right;*/
+}
+
+#frmpayg div.payg-inputs label{
+	width: 140px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#frmpayg div.payg-inputs.payg-monthly label {
+	width: 151px !important;
+}
+
+#frmpayg div.payg-inputs.payg-quarterly label {
+	width: 160px !important;
+}
+
+
+#frmpayg div.payg-monthly {
+	display: none;
+}
+
+#frmpayg input[type="submit"] {
+	background-color: #00B7E3;
+	color: #ffffff;
+	border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-color: #2970e1;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 17px;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+#frmpayg .payg-inputs label, 
+#frmpayg .payg-inputs input[type="text"] {
+	padding: 10px;
+	/*margin-top: 20px;*/
+}
+
+#frmpayg .payg-inputs  input[type="text"] {
+	border: solid 1px #bbbbbb;
+	color: black;
+    font-size: 15px;
+}
+
+
+#frmpayg div.payg-inputs, #payg-output {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* #frmpayg div.payg-inputs. {
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+} */
+
+#payg-output table  {
+	margin: 0px auto;
+}
+
+#payg-output table thead {
+	background-color: #00B7E3;
+	color: white;
+}
+
+#payg-output table  td, #payg-output table th {
+	padding: 10px;
+	text-align: center;
+}
+
+@media (max-width: 768px) { 
+    #frmpayg div.payg-inputs, #payg-output {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+	#frmpayg .payg-inputs label, 
+	#frmpayg .payg-inputs input[type="text"]{
+		margin-top: 0px;
+	}
+
+	#frmpayg div.payg-inputs label {
+		text-align: center;
+	}
+}
